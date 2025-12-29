@@ -1,0 +1,13 @@
+.tracking-wide {
+    letter-spacing: 0.05em;
+}
+
+.page-header {
+    margin-bottom: 2rem;
+}
+
+/* Ensure chart is responsive */
+#attendanceChart {
+    width: 100% !important;
+    height: auto !important;
+}
