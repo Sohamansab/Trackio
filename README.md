@@ -1,39 +1,3 @@
-![Preview](images_qr_attendance/1.PNG)
-![Preview](images_qr_attendance/2.PNG)
-![Preview](images_qr_attendance/3.PNG)
-![Preview](images_qr_attendance/4.PNG)
-![Preview](images_qr_attendance/5.PNG)
-![Preview](images_qr_attendance/6.PNG)
-![Preview](images_qr_attendance/7.PNG)
-![Preview](images_qr_attendance/8.PNG)
-![Preview](images_qr_attendance/9.PNG)
-![Preview](images_qr_attendance/10.PNG)
-![Preview](images_qr_attendance/11.PNG)
-![Preview](images_qr_attendance/12.PNG)
-![Preview](images_qr_attendance/13.PNG)
-![Preview](images_qr_attendance/14.PNG)
-![Preview](images_qr_attendance/15.PNG)
-![Preview](images_qr_attendance/16.PNG)
-![Preview](images_qr_attendance/17.PNG)
-![Preview](images_qr_attendance/18.PNG)
-![Preview](images_qr_attendance/19.PNG)
-![Preview](images_qr_attendance/20.PNG)
-![Preview](images_qr_attendance/21.PNG)
-![Preview](images_qr_attendance/22.PNG)
-![Preview](images_qr_attendance/23.PNG)
-![Preview](images_qr_attendance/24.PNG)
-
-
-
-
-
-
-
-
-
-
-
-
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -93,3 +57,31 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+![Preview](images_qr_attendance/1.PNG)
+![Preview](images_qr_attendance/2.PNG)
+![Preview](images_qr_attendance/3.PNG)
+![Preview](images_qr_attendance/4.PNG)
+![Preview](images_qr_attendance/5.PNG)
+![Preview](images_qr_attendance/6.PNG)
+![Preview](images_qr_attendance/7.PNG)
+![Preview](images_qr_attendance/8.PNG)
+![Preview](images_qr_attendance/9.PNG)
+![Preview](images_qr_attendance/10.PNG)
+![Preview](images_qr_attendance/11.PNG)
+![Preview](images_qr_attendance/12.PNG)
+![Preview](images_qr_attendance/13.PNG)
+![Preview](images_qr_attendance/14.PNG)
+![Preview](images_qr_attendance/15.PNG)
+![Preview](images_qr_attendance/16.PNG)
+![Preview](images_qr_attendance/17.PNG)
+![Preview](images_qr_attendance/18.PNG)
+![Preview](images_qr_attendance/19.PNG)
+![Preview](images_qr_attendance/20.PNG)
+![Preview](images_qr_attendance/21.PNG)
+![Preview](images_qr_attendance/22.PNG)
+![Preview](images_qr_attendance/23.PNG)
+![Preview](images_qr_attendance/24.PNG)
+
