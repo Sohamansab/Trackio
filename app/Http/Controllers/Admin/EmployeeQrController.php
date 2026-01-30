@@ -18,15 +18,14 @@ class EmployeeQrController extends Controller
         $employee->save();
 
         // Generate QR code image and store it
-        $publicUrl = url('/qr/' . $qrValue);
-        $image = \QrCode::format('svg')->size(200)->generate($publicUrl);
+        $image = \QrCode::format('svg')->size(200)->generate($qrValue);
         $path = 'qr-cards/' . $qrValue . '.svg';
-        // store 
+        // store
         Storage::disk('public')->put($path, $image);
         $employee->qr_code_path = 'storage/qr-cards/' . $qrValue . '.svg';
         $employee->save();
 
-        // Create or update qr_cards 
+        // Create or update qr_cards
         QrCard::updateOrCreate(
             ['emp_id' => $employee->emp_id],
             ['qr_code_path' => $employee->qr_code_path]

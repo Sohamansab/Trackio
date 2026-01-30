@@ -39,7 +39,7 @@ class EmployeeController extends Controller
             'phone' => 'nullable|string|max:20',
             'department_id' => 'required|exists:departments,department_id',
             'designation_id' => 'required|exists:designations,designation_id',
-            'shift_id' => 'required|exists:shifts,shift_id',
+            'shift_id' => 'nullable|exists:shifts,shift_id',
             'joining_date' => 'required|date',
             'address' => 'nullable|string',
             'password' => 'required|min:6|confirmed',
@@ -100,7 +100,7 @@ class EmployeeController extends Controller
             'phone' => 'nullable|string|max:20',
             'department_id' => 'required|exists:departments,department_id',
             'designation_id' => 'required|exists:designations,designation_id',
-            'shift_id' => 'required|exists:shifts,shift_id',
+            'shift_id' => 'nullable|exists:shifts,shift_id',
             'joining_date' => 'required|date',
             'status' => 'required|boolean',
         ]);

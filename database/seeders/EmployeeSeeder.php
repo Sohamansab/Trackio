@@ -14,28 +14,28 @@ class EmployeeSeeder extends Seeder
     {
         // Create departments
         $departments = [
-            ['name' => 'IT', 'description' => 'Information Technology Department'],
-            ['name' => 'HR', 'description' => 'Human Resources Department'],
-            ['name' => 'Finance', 'description' => 'Finance Department'],
-            ['name' => 'Marketing', 'description' => 'Marketing Department'],
+            ['department_name' => 'IT', 'description' => 'Information Technology Department'],
+            ['department_name' => 'HR', 'description' => 'Human Resources Department'],
+            ['department_name' => 'Finance', 'description' => 'Finance Department'],
+            ['department_name' => 'Marketing', 'description' => 'Marketing Department'],
         ];
 
         foreach ($departments as $dept) {
-            Department::firstOrCreate(['name' => $dept['name']], $dept);
+            Department::firstOrCreate(['department_name' => $dept['department_name']], $dept);
         }
 
         // Create designations
         $designations = [
-            ['title' => 'Software Engineer', 'department_id' => 1],
-            ['title' => 'HR Manager', 'department_id' => 2],
-            ['title' => 'Accountant', 'department_id' => 3],
-            ['title' => 'Marketing Specialist', 'department_id' => 4],
-            ['title' => 'System Administrator', 'department_id' => 1],
-            ['title' => 'HR Assistant', 'department_id' => 2],
+            ['designation_name' => 'Software Engineer', 'department_id' => 1],
+            ['designation_name' => 'HR Manager', 'department_id' => 2],
+            ['designation_name' => 'Accountant', 'department_id' => 3],
+            ['designation_name' => 'Marketing Specialist', 'department_id' => 4],
+            ['designation_name' => 'System Administrator', 'department_id' => 1],
+            ['designation_name' => 'HR Assistant', 'department_id' => 2],
         ];
 
         foreach ($designations as $desig) {
-            Designation::firstOrCreate(['title' => $desig['title']], $desig);
+            Designation::firstOrCreate(['designation_name' => $desig['designation_name']], $desig);
         }
 
         // Create employees

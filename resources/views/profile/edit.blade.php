@@ -144,15 +144,15 @@
                     </div>
                     <div class="mb-3">
                         <label class="form-label fw-semibold">Department</label>
-                        <p class="mb-0">{{ $user->employeeProfile->department->name ?? 'N/A' }}</p>
+                        <p class="mb-0">{{ $user->employeeProfile ? ($user->employeeProfile->department->name ?? 'N/A') : 'Not Applicable' }}</p>
                     </div>
                     <div class="mb-3">
                         <label class="form-label fw-semibold">Designation</label>
-                        <p class="mb-0">{{ $user->employeeProfile->designation->name ?? 'N/A' }}</p>
+                        <p class="mb-0">{{ $user->employeeProfile ? ($user->employeeProfile->designation->name ?? 'N/A') : 'Not Applicable' }}</p>
                     </div>
                     <div class="mb-3">
                         <label class="form-label fw-semibold">Shift</label>
-                        <p class="mb-0">{{ $user->employeeProfile->shift->name ?? 'N/A' }}</p>
+                        <p class="mb-0">{{ $user->employeeProfile ? ($user->employeeProfile->shift->name ?? 'N/A') : 'Not Applicable' }}</p>
                     </div>
                     <div class="mb-3">
                         <label class="form-label fw-semibold">Joining Date</label>

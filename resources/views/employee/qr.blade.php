@@ -27,8 +27,8 @@
         ">
             <!-- Header -->
             <div style="text-align:center; margin-bottom:15px;">
-                <div style="font-size:24px; font-weight:bold;">ITS</div>
-                <div style="font-size:11px; opacity:0.9;">Information Technology Services</div>
+                <div style="font-size:24px; font-weight:bold;">Trackio</div>
+                <div style="font-size:11px; opacity:0.9;">Employee Attendance System</div>
                 <div style="font-size:11px; opacity:0.9;">EMPLOYEE ID CARD</div>
             </div>
 
@@ -62,8 +62,8 @@
 
             <!-- Details -->
             <div style="font-size:10px; line-height:1.6; margin-bottom:15px; text-align:center;">
-                <div><strong>Department:</strong> {{ $employee->department->dept_name ?? 'Not Assigned' }}</div>
-                <div><strong>Designation:</strong> {{ $employee->designation->designation_name ?? 'Not Assigned' }}</div>
+                <div><strong>Department:</strong> {{ $employee->department?->name ?? 'Not Assigned' }}</div>
+                <div><strong>Designation:</strong> {{ $employee->designation?->designation_name ?? 'Not Assigned' }}</div>
                 <div><strong>Joining:</strong> {{ $employee->joining_date ? date('d M Y', strtotime($employee->joining_date)) : 'Not Set' }}</div>
             </div>
 

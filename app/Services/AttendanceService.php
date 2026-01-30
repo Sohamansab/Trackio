@@ -41,6 +41,7 @@ class AttendanceService
      */
     public function determineAttendanceStatus(string $shiftName, ?string $checkIn, ?string $checkOut): array
     {
+        $shiftName = strtolower($shiftName);
         $this->validateShift($shiftName);
 
         $shift = self::SHIFTS[$shiftName];
